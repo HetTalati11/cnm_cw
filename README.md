@@ -12,7 +12,7 @@ MATLAB coursework project that simulates inviscid flow around NACA 4-digit aerof
 
 ## Files
 
-- `MATLAB.m` - main script.
+- `main.m` - main script.
 - `panelgen.m` - NACA geometry and panel generation.
 - `cdoublet.m` - velocity induced by a unit-strength doublet panel.
 - `xf-naca2412-il-1000000.txt` - XFOIL comparison data for the NACA 2412 study.
@@ -22,7 +22,7 @@ MATLAB coursework project that simulates inviscid flow around NACA 4-digit aerof
 Open MATLAB in this folder and run:
 
 ```matlab
-MATLAB
+main
 ```
 
 Entering `2412` runs the preset comparison study with `U = 15 m/s`, panel counts of `50`, `100`, and `200`, and angles of attack from `0` to `10` degrees. Other valid NACA 4-digit codes prompt for freestream velocity, angle of attack, and panel count.
